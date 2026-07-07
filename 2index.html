@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CycleFit — Privacy Policy</title>
+<style>
+  :root {
+    --bg: #FFFAF8;
+    --ink: #3D2B33;
+    --muted: #8A6E7A;
+    --accent: #D9648C;
+    --accent-soft: #F9E4EC;
+    --rule: #F0DDE5;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7;
+    font-size: 16px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { text-align: center; padding-bottom: 32px; border-bottom: 1px solid var(--rule); margin-bottom: 40px; }
+  .logo {
+    display: inline-block;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 8px 18px;
+    border-radius: 999px;
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+  .date { color: var(--muted); font-size: 14px; }
+  .lang-switch { margin-top: 20px; }
+  .lang-switch button {
+    background: none;
+    border: 1px solid var(--rule);
+    color: var(--muted);
+    padding: 6px 16px;
+    border-radius: 999px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0 4px;
+    font-family: inherit;
+  }
+  .lang-switch button.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  h2 {
+    font-size: 19px;
+    font-weight: 700;
+    margin: 36px 0 12px;
+    color: var(--ink);
+  }
+  p, li { color: #5C4550; margin-bottom: 12px; }
+  ul { padding-left: 22px; margin-bottom: 12px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--ink); }
+  a { color: var(--accent); }
+  .card {
+    background: #fff;
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin: 16px 0;
+  }
+  .card p:last-child { margin-bottom: 0; }
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 14px;
+    text-align: center;
+  }
+  [data-lang] { display: none; }
+  [data-lang].show { display: block; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="logo">CycleFit</div>
+  <h1 id="title">Privacy Policy</h1>
+  <div class="date" id="date">Last updated: July 7, 2026</div>
+  <div class="lang-switch">
+    <button id="btn-en" class="active" onclick="setLang('en')">English</button>
+    <button id="btn-tr" onclick="setLang('tr')">Türkçe</button>
+  </div>
+</header>
+
+<!-- ================= ENGLISH ================= -->
+<div data-lang="en" class="show">
+
+<p>This Privacy Policy explains how <strong>CycleFit</strong> ("we", "the app") handles your information. CycleFit is a menstrual cycle tracking and nutrition planning app. We designed it with privacy in mind: <strong>your health data stays on your device</strong>, and we never sell your personal information.</p>
+
+<h2>1. Information We Collect</h2>
+<p>To provide personalized meal plans, the app asks you to enter:</p>
+<ul>
+  <li><strong>Cycle information</strong> — period dates, cycle length, and related tracking data</li>
+  <li><strong>Body metrics</strong> — weight, height, and calculated BMI</li>
+  <li><strong>Food preferences</strong> — likes, dislikes, allergies, and dietary needs</li>
+  <li><strong>Health conditions</strong> — optional conditions you choose to share to improve plan quality</li>
+</ul>
+<div class="card">
+  <p><strong>Where is this stored?</strong> All of this data is stored locally on your device. We do not operate our own servers, do not require an account, and cannot access your data.</p>
+</div>
+
+<h2>2. AI-Powered Features</h2>
+<p>When you request an AI-generated meal plan, shopping list, or sweet-craving suggestion, relevant inputs (such as your cycle phase, food preferences, and body metrics) are sent to <strong>Anthropic's Claude API</strong> to generate your personalized content. This data is transmitted securely over HTTPS, is used only to generate your response, and is not used to identify you. No name, email, or account identifier is attached to these requests. You can review Anthropic's privacy practices at <a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">anthropic.com/legal/privacy</a>.</p>
+
+<h2>3. Subscriptions & Purchases</h2>
+<p>Subscriptions are processed by <strong>Apple</strong> through your App Store account. We use <strong>RevenueCat</strong> to manage subscription status. RevenueCat receives anonymous purchase information (such as an anonymous app user ID and transaction status) but never your name, payment details, or health data. See RevenueCat's privacy policy at <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a>. We never see or store your payment information.</p>
+
+<h2>4. What We Do NOT Do</h2>
+<ul>
+  <li>We do <strong>not</strong> sell, rent, or trade your personal data</li>
+  <li>We do <strong>not</strong> show third-party ads or use advertising trackers</li>
+  <li>We do <strong>not</strong> require you to create an account</li>
+  <li>We do <strong>not</strong> upload your cycle history to any server we control</li>
+</ul>
+
+<h2>5. Data Retention & Deletion</h2>
+<p>Because your data lives on your device, you are in control. Deleting the app permanently deletes all locally stored data, including your cycle history, body metrics, and preferences. Cached meal plans are also removed.</p>
+
+<h2>6. Children's Privacy</h2>
+<p>CycleFit is not directed at children under 13, and we do not knowingly collect information from children under 13.</p>
+
+<h2>7. Your Rights</h2>
+<p>Depending on where you live (including under GDPR and KVKK), you may have rights to access, correct, or delete your personal data. Since your data is stored on your own device, you can exercise these rights directly within the app or by deleting it. For anything else, contact us using the email below.</p>
+
+<h2>8. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated date above.</p>
+
+<h2>9. Contact</h2>
+<p>If you have questions about this Privacy Policy, contact us at: <a href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a></p>
+
+</div>
+
+<!-- ================= TURKISH ================= -->
+<div data-lang="tr">
+
+<p>Bu Gizlilik Politikası, <strong>CycleFit</strong> ("biz", "uygulama") uygulamasının bilgilerinizi nasıl işlediğini açıklar. CycleFit bir adet döngüsü takibi ve beslenme planlama uygulamasıdır. Uygulamayı gizlilik odaklı tasarladık: <strong>sağlık verileriniz cihazınızda kalır</strong> ve kişisel bilgilerinizi asla satmayız.</p>
+
+<h2>1. Topladığımız Bilgiler</h2>
+<p>Kişiselleştirilmiş beslenme planları sunabilmek için uygulama sizden şunları girmenizi ister:</p>
+<ul>
+  <li><strong>Döngü bilgileri</strong> — regl tarihleri, döngü uzunluğu ve ilgili takip verileri</li>
+  <li><strong>Vücut ölçüleri</strong> — kilo, boy ve hesaplanan vücut kitle indeksi</li>
+  <li><strong>Yemek tercihleri</strong> — sevdikleriniz, sevmedikleriniz, alerjileriniz ve beslenme ihtiyaçlarınız</li>
+  <li><strong>Sağlık durumları</strong> — plan kalitesini artırmak için paylaşmayı seçtiğiniz isteğe bağlı bilgiler</li>
+</ul>
+<div class="card">
+  <p><strong>Bu veriler nerede saklanıyor?</strong> Tüm bu veriler yalnızca cihazınızda yerel olarak saklanır. Kendi sunucularımız yoktur, hesap oluşturmanız gerekmez ve verilerinize erişemeyiz.</p>
+</div>
+
+<h2>2. Yapay Zekâ Destekli Özellikler</h2>
+<p>Yapay zekâ destekli bir beslenme planı, alışveriş listesi veya tatlı krizi önerisi istediğinizde, ilgili girdiler (döngü fazınız, yemek tercihleriniz ve vücut ölçüleriniz gibi) kişiselleştirilmiş içeriğinizi oluşturmak için <strong>Anthropic'in Claude API</strong>'sine gönderilir. Bu veriler HTTPS üzerinden güvenli şekilde iletilir, yalnızca yanıtınızı oluşturmak için kullanılır ve sizi tanımlamak için kullanılmaz. Bu isteklere isim, e-posta veya hesap kimliği eklenmez. Anthropic'in gizlilik uygulamalarını <a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">anthropic.com/legal/privacy</a> adresinden inceleyebilirsiniz.</p>
+
+<h2>3. Abonelikler ve Satın Almalar</h2>
+<p>Abonelikler, App Store hesabınız üzerinden <strong>Apple</strong> tarafından işlenir. Abonelik durumunu yönetmek için <strong>RevenueCat</strong> kullanıyoruz. RevenueCat yalnızca anonim satın alma bilgilerini (anonim bir kullanıcı kimliği ve işlem durumu gibi) alır; adınızı, ödeme bilgilerinizi veya sağlık verilerinizi asla almaz. RevenueCat'in gizlilik politikası: <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a>. Ödeme bilgilerinizi hiçbir zaman görmeyiz veya saklamayız.</p>
+
+<h2>4. Yapmadıklarımız</h2>
+<ul>
+  <li>Kişisel verilerinizi <strong>satmayız</strong>, kiralamayız veya takas etmeyiz</li>
+  <li>Üçüncü taraf reklam <strong>göstermeyiz</strong>, reklam takipçisi kullanmayız</li>
+  <li>Hesap oluşturmanızı <strong>gerektirmeyiz</strong></li>
+  <li>Döngü geçmişinizi kontrolümüzdeki hiçbir sunucuya <strong>yüklemeyiz</strong></li>
+</ul>
+
+<h2>5. Veri Saklama ve Silme</h2>
+<p>Verileriniz cihazınızda olduğu için kontrol sizdedir. Uygulamayı silmek; döngü geçmişiniz, vücut ölçüleriniz ve tercihleriniz dahil yerel olarak saklanan tüm verileri kalıcı olarak siler. Önbelleğe alınmış beslenme planları da kaldırılır.</p>
+
+<h2>6. Çocukların Gizliliği</h2>
+<p>CycleFit 13 yaş altı çocuklara yönelik değildir ve 13 yaş altı çocuklardan bilerek bilgi toplamayız.</p>
+
+<h2>7. Haklarınız</h2>
+<p>Yaşadığınız yere bağlı olarak (GDPR ve KVKK dahil), kişisel verilerinize erişme, düzeltme veya silme haklarına sahip olabilirsiniz. Verileriniz kendi cihazınızda saklandığı için bu hakları doğrudan uygulama içinden veya uygulamayı silerek kullanabilirsiniz. Diğer konular için aşağıdaki e-posta adresinden bize ulaşabilirsiniz.</p>
+
+<h2>8. Politika Değişiklikleri</h2>
+<p>Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Değişiklikler, yukarıdaki güncel tarihle birlikte bu sayfada yayınlanır.</p>
+
+<h2>9. İletişim</h2>
+<p>Bu Gizlilik Politikası hakkında sorularınız için: <a href="mailto:YOUR_EMAIL_HERE">YOUR_EMAIL_HERE</a></p>
+
+</div>
+
+<footer>© 2026 CycleFit</footer>
+
+</div>
+
+<script>
+function setLang(lang) {
+  document.querySelectorAll('[data-lang]').forEach(function(el) {
+    el.classList.toggle('show', el.getAttribute('data-lang') === lang);
+  });
+  document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+  document.getElementById('btn-tr').classList.toggle('active', lang === 'tr');
+  document.getElementById('title').textContent = lang === 'tr' ? 'Gizlilik Politikası' : 'Privacy Policy';
+  document.getElementById('date').textContent = lang === 'tr' ? 'Son güncelleme: 7 Temmuz 2026' : 'Last updated: July 7, 2026';
+  document.documentElement.lang = lang;
+}
+</script>
+</body>
+</html>
