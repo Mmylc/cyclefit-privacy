@@ -90,7 +90,7 @@
 <header>
   <div class="logo">CycleFit</div>
   <h1 id="title">Privacy Policy</h1>
-  <div class="date" id="date">Last updated: October 22, 2026</div>
+  <div class="date" id="date">Last updated: October 28, 2026</div>
   <div class="lang-switch">
     <button id="btn-en" class="active" onclick="setLang('en')">English</button>
     <button id="btn-tr" onclick="setLang('tr')">Türkçe</button>
@@ -115,6 +115,9 @@
 </ul>
 <div class="card">
   <p><strong>Where is this stored?</strong> All of this data is stored locally on your device. We do not operate our own servers, do not require an account, and cannot access your data. The only time data leaves your device is when you use AI features with your permission, as described in section 2. Home Screen and Lock Screen widgets read a short cycle summary on your device only.</p>
+</div>
+<div class="card">
+  <p><strong>Apple Health (optional).</strong> If you choose "Import from Apple Health" in the period calendar, CycleFit asks for read-only access to your menstrual flow records in Apple Health. It never writes to Apple Health. Imported period dates are saved in the app's calendar on your device, just like dates you enter yourself. Data from Apple Health is never used for advertising or marketing, never sold, and never shared with third parties; only the cycle phase and cycle day calculated in the app may be sent to the AI features with your permission, as described in section 2. You can turn off access at any time in the Health app or in Settings &gt; Privacy &amp; Security &gt; Health.</p>
 </div>
 
 <h2>2. AI-Powered Features (Google Gemini)</h2>
@@ -173,6 +176,9 @@
 <div class="card">
   <p><strong>Bu veriler nerede saklanıyor?</strong> Tüm bu veriler yalnızca cihazınızda yerel olarak saklanır. Kendi sunucularımız yoktur, hesap oluşturmanız gerekmez ve verilerinize erişemeyiz. Veriler cihazınızdan yalnızca, izninizle yapay zekâ özelliklerini kullandığınızda 2. bölümde anlatıldığı şekilde çıkar. Ana ekran ve kilit ekranı widget'ları kısa döngü özetini yalnızca cihazınızda okur.</p>
 </div>
+<div class="card">
+  <p><strong>Apple Sağlık (isteğe bağlı).</strong> Adet takviminde "Apple Sağlık'tan içe aktar" seçeneğini kullanırsanız CycleFit, Apple Sağlık'taki adet kayıtlarınız için yalnızca okuma izni ister; Apple Sağlık'a hiçbir şey yazmaz. İçe aktarılan adet tarihleri, kendi girdiğiniz tarihler gibi cihazınızdaki uygulama takviminde saklanır. Apple Sağlık verileri asla reklam veya pazarlama için kullanılmaz, satılmaz ve üçüncü taraflarla paylaşılmaz; yalnızca uygulamada hesaplanan döngü fazı ve döngü günü, 2. bölümde anlatıldığı gibi izninizle yapay zekâ özelliklerine gönderilebilir. Erişimi istediğiniz zaman Sağlık uygulamasından veya Ayarlar &gt; Gizlilik ve Güvenlik &gt; Sağlık bölümünden kapatabilirsiniz.</p>
+</div>
 
 <h2>2. Yapay Zekâ Destekli Özellikler (Google Gemini)</h2>
 <p>CycleFit'in yapay zekâ özellikleri — beslenme planları, alışveriş listeleri, tatlı krizi önerileri, Yapay Zekâ Beslenme Koçu ve günlük durum geri bildirimi — <strong>Google LLC</strong> tarafından sağlanan <strong>Google Gemini API</strong> ile çalışır.</p>
@@ -223,7 +229,7 @@ function setLang(lang) {
   document.getElementById('btn-en').classList.toggle('active', lang === 'en');
   document.getElementById('btn-tr').classList.toggle('active', lang === 'tr');
   document.getElementById('title').textContent = lang === 'tr' ? 'Gizlilik Politikası' : 'Privacy Policy';
-  document.getElementById('date').textContent = lang === 'tr' ? 'Son güncelleme: 22 Ekim 2026' : 'Last updated: October 22, 2026';
+  document.getElementById('date').textContent = lang === 'tr' ? 'Son güncelleme: 28 Ekim 2026' : 'Last updated: October 28, 2026';
   document.documentElement.lang = lang;
 }
 </script>
